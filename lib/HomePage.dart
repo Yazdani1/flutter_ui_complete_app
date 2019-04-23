@@ -58,7 +58,18 @@ class _HomeState extends State<Home> {
         children: <Widget>[
 
           new Container(
-            
+            margin: EdgeInsets.all(10.0),
+            height: 150.0,
+            child: new ListView(
+              scrollDirection: Axis.horizontal,
+              children: <Widget>[
+
+                new Container(
+                  
+                ),//first container
+
+              ],
+            ),
           ),//first container
 
 
