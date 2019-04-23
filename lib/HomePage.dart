@@ -14,11 +14,9 @@ class _HomeState extends State<Home> {
         title: new Text("Material Design"),
         backgroundColor: Colors.brown,
       ),
-
       drawer: new Drawer(
         child: new ListView(
           children: <Widget>[
-
             new UserAccountsDrawerHeader(
               accountName: new Text("Code With ydc"),
               accountEmail: new Text("ydc@gmail.com"),
@@ -56,7 +54,6 @@ class _HomeState extends State<Home> {
 
       body: new ListView(
         children: <Widget>[
-
           new Container(
             margin: EdgeInsets.all(10.0),
             height: 150.0,
