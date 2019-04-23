@@ -12,7 +12,7 @@ class _HomeState extends State<Home> {
 
       appBar: new AppBar(
         title: new Text("Material Design"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.brown,
       ),
 
       drawer: new Drawer(
