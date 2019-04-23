@@ -65,8 +65,56 @@ class _HomeState extends State<Home> {
               children: <Widget>[
 
                 new Container(
-                  
+                  height: 140.0,
+                  width: 140.0,
+                  decoration: new BoxDecoration(
+                    color: Colors.purple,
+                    borderRadius: new BorderRadius.circular(15.0)
+                  ),
+                  child: new Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      new Icon(Icons.search,color: Colors.orange,size: 70.0,),
+                      new SizedBox(height: 10.0,),
+                      new Text("20k+",style: TextStyle(fontSize: 22.0,color: Colors.white),)
+                    ],
+                  ),
                 ),//first container
+                new SizedBox(width: 10.0,),
+                new Container(
+                  height: 140.0,
+                  width: 140.0,
+                  decoration: new BoxDecoration(
+                      color: Colors.brown,
+                      borderRadius: new BorderRadius.circular(15.0)
+                  ),
+                  child: new Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      new Icon(Icons.add,color: Colors.yellow,size: 70.0,),
+                      new SizedBox(height: 10.0,),
+                      new Text("90k+",style: TextStyle(fontSize: 22.0,color: Colors.white),)
+                    ],
+                  ),
+                ),//second container
+
+                new SizedBox(width: 10.0,),
+                new Container(
+                  height: 140.0,
+                  width: 140.0,
+                  decoration: new BoxDecoration(
+                      color: Colors.green,
+                      borderRadius: new BorderRadius.circular(15.0)
+                  ),
+                  child: new Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      new Icon(Icons.album,color: Colors.white,size: 70.0,),
+                      new SizedBox(height: 10.0,),
+                      new Text("60k+",style: TextStyle(fontSize: 22.0,color: Colors.white),)
+                    ],
+                  ),
+                ),//second container
 
               ],
             ),
