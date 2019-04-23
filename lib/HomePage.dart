@@ -120,6 +120,44 @@ class _HomeState extends State<Home> {
             ),
           ),//first container
 
+          //Second container start from here...
+
+          new Container(
+            margin: EdgeInsets.all(10.0),
+            child: new Column(
+              children: <Widget>[
+
+                new Container(
+                  height: 100.0,
+                  child: new Card(
+                    elevation: 10.0,
+                    color: Colors.brown,
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Container(
+                          padding: EdgeInsets.all(10.0),
+                          child: new Column(
+                            children: <Widget>[
+                              new Text("We Are From Lithunia",style: TextStyle(fontSize: 20.0,color: Colors.white),),
+                              new SizedBox(height: 5.0,),
+                              new Text("We provide education content",style: TextStyle(fontSize: 15.0,color: Colors.grey),)
+                            ],
+                          ),
+                        ),
+                        new Container(
+                          child: new Text("5k+",
+                          style: TextStyle(fontSize: 25.0,color: Colors.yellow),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),//first container
+
+              ],
+            ),
+          )
 
 
 
