@@ -131,6 +131,9 @@ class _HomeState extends State<Home> {
                   height: 100.0,
                   child: new Card(
                     elevation: 10.0,
+                    shape: BeveledRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0)
+                    ),
                     color: Colors.brown,
                     child: new Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -141,13 +144,48 @@ class _HomeState extends State<Home> {
                             children: <Widget>[
                               new Text("We Are From Lithunia",style: TextStyle(fontSize: 20.0,color: Colors.white),),
                               new SizedBox(height: 5.0,),
-                              new Text("We provide education content",style: TextStyle(fontSize: 15.0,color: Colors.grey),)
+                              new Text("We provide education content",style: TextStyle(fontSize: 15.0,color: Colors.white54),)
                             ],
                           ),
                         ),
                         new Container(
+                          margin: EdgeInsets.all(10.0),
                           child: new Text("5k+",
                           style: TextStyle(fontSize: 25.0,color: Colors.yellow),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                ),//first container
+                new SizedBox(
+                  height: 10.0,
+                ),
+                new Container(
+                  height: 100.0,
+                  child: new Card(
+                    elevation: 10.0,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0)
+                    ),
+                    color: Colors.brown,
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Container(
+                          padding: EdgeInsets.all(10.0),
+                          child: new Column(
+                            children: <Widget>[
+                              new Text("We Are From Canada",style: TextStyle(fontSize: 20.0,color: Colors.white),),
+                              new SizedBox(height: 5.0,),
+                              new Text("We provide education content",style: TextStyle(fontSize: 15.0,color: Colors.white54),)
+                            ],
+                          ),
+                        ),
+                        new Container(
+                          margin: EdgeInsets.all(10.0),
+                          child: new Text("50k+",
+                            style: TextStyle(fontSize: 25.0,color: Colors.yellow),
                           ),
                         )
                       ],
